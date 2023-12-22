@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="demo"></h2>
+    <!-- Add Script -->
+    <script>
+      // varibale Declaration
+
+      //   var name1; //declare variable by using var
+      //   let  name2; //declare variable by using let
+      //   const name3 = 'sai'; //declare variable by using
+
+      //when we declare variabel by using const then we have to initialize with value at the time of declaration and that value will be constant throught the html document( const value is not changable.)
+
+      //when we declare variable by using const then we have to may or maynot be with value at the time of declaration and that value can be change throght out the program as per declare ( let , var value are not constant  they are changable.)
+
+      //Most of the time we use let without using Var variable.
+      //var has global Scope where let has a Block Scope.
+
+      //   var lastname;
+      //   let firstname;
+      //   const name = "sainath";
+      //   lastname = "wankhede";
+      //   firstname = "sainath";
+
+      //   Writing into an HTML element, using innerHTML.
+      const demo = document.getElementById("demo");
+      //   demo.innerHTML = "sainath";
+
+      //   Writing into the HTML output using document.write(). here tags are used inside the document.write() method.
+
+      //   document.write("<h1>hello</h1>");
+
+      //   Writing into an alert box, using window.alert(). show alert into the screen.
+      //   window.alert("hola");
+
+      //    Writing into the browser console, using console.log(). dispaly into the console.
+      //   console.log("hi");
+
+      //Number Methods.
+
+      //   let num = 10.23456;
+
+      // * toString()
+      //   console.log(typeof num);
+      //   method to convert number into string. toString()
+      // let str = num.toString();
+      //   console.log(typeof str);
+
+      //   * toExponential()
+      //   demo.innerHTML = num.toExponential(5); //1.00000e+1
+
+      //   const demo = document.getElementById("demo");
+      // * tofixed(num) for num = 10.23456 in this method num describes the how many digit are be show after decimal point.
+
+      //   demo.innerHTML = num.toFixed(0); //10
+      //   demo.innerHTML = num.toFixed(1); //10.2
+      //   demo.innerHTML = num.toFixed(2); //10.23
+      //   demo.innerHTML = num.toFixed(3); //10.235
+
+      //   * toPrecision(num) here also num describes how many digit show after the deciaml point.
+      //   demo.innerHTML = num.toPrecision(0); //10
+      //   demo.innerHTML = num.toPrecision(2); //10.24
+      //   demo.innerHTML = num.toPrecision(4); //10.2345
+
+      //   * Number(string) this method gives an string and conver it into Number.
+
+      //   let str = num.toString();
+      //   demo.innerHTML = typeof Number(str);
+
+      // * parseInt(interger number) and parseFloat(decimal/float number)
+      //   demo.innerHTML = typeof parseInt("4356556");
+      //   demo.innerHTML = typeof parseFloat("4356556.2323");
+
+      /////////////////////////////////////////////////////////////////////
+
+      // *) String Methods
+
+      // Escape sequence Characters
+      // \' for ' , \" for " , \\ for \ ,\t for Horizontal tab space, \n for new line , \v for vertical tab space.
+      //   let string = "John";
+      // let string = 'John'
+      //   let string = "John's \" \\ \tCamera";
+      //   demo.innerHTML = typeof string;
+      //   demo.innerHTML = string;
+      //   console.log(string);
+
+      //String Methods
+      //* Slice(start index , end index) where end index is not print before end index from start index will extract string.
+      //slice(start index)  here after start index all characters string extract.
+      const name = "sainath wankhede Dasa";
+      //   demo.innerHTML = name.slice(1, 6);//ainat
+      //   demo.innerHTML = name.slice(1); // ainath wankhede
+      //   demo.innerHTML = name.substring(8, 16); // Wankhede
+      //   demo.innerHTML = name.substr(8, 8); // Wankhede here first value starting index of sub string and second value how much character extract form starting index.
+
+      //   demo.innerHTML = name.replace("sainath", "shubham");//here first string is which sub string to be replace and second is by which sub string to be replaced.
+      //   demo.innerHTML = name.replace("a", "777"); // first a in given string is replace by "777". i.e. s777inath wankhede Dasa.
+    </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+// JavaScript part - 1
+
+Lecture Outcomes :
+
+i) Introduction
+ii) Variables, Statements and Output
+iii) Datatypes
+iv) Operators, Conditional Statements and Switch
+v) Loops.
+vi) Functions.
+vii) DOM.
+
+Introduction :
+
+-JavaScript is the world's most popular programming language.
+
+-JavaScript is the programming language of the web.
+
+-JavaScript and java are completely different languages, both in concept and design.
+
+-JavaScript was invented by Brendan Eich in 1995 , and became an ECMA Standard in 1997.
+
+-ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+
+
+Variables Declaration
+
+- There are 3 ways to declare a JavaScript variables.
+1. Using var.
+2. Using let.
+3. Using const.
+
+- All JavaScript variables must be identified with unique names. These unique names are called identifiers.
+
+Statement
+
+-A computer program is a list of "instructions" to be "executed" by a computer.
+
+-In a programming language, these programming instructions are called statments.
+
+- A JavaScript program is a list of programming statments.
+
+-EX : 
+    let x, y, z; //Statement 1
+    x = 5;       //Statement 2   
+    y = 6;       //Statement 3
+    z = x + y;   //Statement 4
+
+Output  :
+
+JavaScript can "display" data in different ways:
+
+* Writing into an HTML element, using innerHTML.
+* Writing into the HTML output using document.write().
+* Writing into an alert box, using window.alert().
+* Writing into the browser console, using console.log().
+
+
+Data Types :
+
+* A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.
+
+* In JavaScript we do have datatypes like :
+1) Number 
+2) String
+3) Arrays
+4) Objects.
+
+1) Numbers  : 
+
+* JavaScript has only one type of number. Numbers can be written with or without decimals. EX :
+
+let x = 3.14; // A number with decimals.
+let y = 3; // A number without decimals.
+
+* Unlike many other programming languages, JavaScript does not define different types of numbers, like integers, short, lon, floating-point etc.
+
+* JavaScript numbers are always stored as double precision floating point numbers.
+
+* Number Methods.
+
+
